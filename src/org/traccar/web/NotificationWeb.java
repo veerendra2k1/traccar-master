@@ -62,7 +62,7 @@ public final class NotificationWeb {
 
 
             NotificationPayload notificationPayload = NotificationPayload.builder()
-                    .setTitle("GMaxGPS")
+                    .setTitle("NiviGPS")
                     .setBody(NotificationFormatter.formatWebMessage(userId, event, position))
                     .build();
 
